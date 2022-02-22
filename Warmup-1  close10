@@ -1,0 +1,11 @@
+public int close10(int a, int b) {
+  int ares = Math.abs(a - 10);
+  int bres = Math.abs(b - 10);
+  
+  if (ares < bres){
+    return a;
+  } else if (ares > bres){
+    return b;
+  }
+  return 0;
+}
