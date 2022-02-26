@@ -1,0 +1,8 @@
+public boolean stringE(String str) {
+  int n = 0;
+
+  for (int i = 0; i < str.length(); i++) {
+    if (str.charAt(i) == 'e') n++;
+  }
+  return (n >= 1 && n <= 3);
+} 
