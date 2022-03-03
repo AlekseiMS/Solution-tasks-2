@@ -1,0 +1,12 @@
+public String lastTwo(String str) {
+  String result="";
+  int k = str.length();
+  if (k <= 1) result = str;
+  else if ( k>= 2) {
+  String first = (str.substring(0, k-2));
+  String blast = str.substring(k - 2, k - 1);
+  String last = str.substring(k - 1);
+  result = first + last + blast;
+}
+return result;
+}
